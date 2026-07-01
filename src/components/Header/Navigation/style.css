@@ -1,0 +1,88 @@
+.categorypanel button{
+    text-transform: capitalize !important;
+}
+
+.nav li .submenu{
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.nav li .submenu button{
+    font-weight: 400 !important;
+}
+
+.nav li:hover .submenu{
+    opacity: 1 !important;
+    visibility: inherit;
+    top:100%;
+}
+
+.nav li .submenu li:hover button{
+    color: #ff5252 !important;
+}
+
+.nav li .submenu li .submenu{
+    top: 0px !important;
+    left: 120% !important;
+    opacity: 0 !important;
+}
+
+.nav li .submenu li:hover .submenu{
+    left: 100% !important;
+    opacity: 1 !important;
+}
+
+.nav li .submenu li .submenu button{
+    color: rgba(0,0,0,0.8) !important;
+}
+.nav li .submenu li .submenu button:hover{
+    color: #ff5252 !important;
+}
+
+/* hide by default */
+.nav li .submenu{
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+/* show first level */
+.nav li:hover > .submenu{
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+/* submenu buttons */
+.nav li .submenu button{
+    font-weight: 400 !important;
+}
+
+/* hover color */
+.nav li .submenu li:hover > button{
+    color: #ff5252 !important;
+}
+
+/* second level hide */
+.nav li .submenu li .submenu{
+    top: 0;
+    left: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+/* show second level */
+.nav li .submenu li:hover > .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* third level button */
+.nav li .submenu li .submenu button{
+    color: rgba(0,0,0,0.8) !important;
+}
+.nav li .submenu li .submenu button:hover{
+    color: #ff5252 !important;
+}
