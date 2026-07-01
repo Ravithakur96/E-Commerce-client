@@ -15,9 +15,10 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import BlogItem from "../../components/BlogItem";
 import HomeBannerV2 from "../../components/HomeSliderV2";
-import BannerBoxV2 from "../../components/BannerBoxV2";
+
 import { MyContext } from "../../App";
 import { fetchDataFromApi } from "../../utils/api";
+import BannerBoxV2 from "../../components/BannerBoxV2";
 
 const Home = () => {
 
@@ -92,7 +93,7 @@ useEffect(() => {
           </div>
 
           <div className="part2 w-[30%] flex items-center gap-5 justify-between flex-col">
-            <BannerBoxV2 
+            <BannerBoxV2
               info="left" 
               image="https://serviceapi.spicezgold.com/download/1741664496923_1737020250515_New_Project_47.jpg" 
             />
