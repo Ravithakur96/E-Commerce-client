@@ -2,7 +2,7 @@ import React, { useEffect, useState, createContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "./Pages/Home/Index";
+import Home from "./Pages/Home";
 import ProductListing from "./Pages/ProductListing";
 import ProductDetails from "./Pages/ProductDetails";
 import Login from "./Pages/Login";
