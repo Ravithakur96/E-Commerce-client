@@ -20,6 +20,7 @@ import { MyContext } from "../../App";
 import { fetchDataFromApi } from "../../utils/api";
 import BannerBoxV2 from "../../components/bannerBoxV2";
 
+
 const Home = () => {
 
   const [value, setValue] = useState(0);
@@ -207,7 +208,7 @@ useEffect(() => {
         <div className="container">
           <h2 className="text-[20px] font-[600]">Featured Products</h2>
            {
-            featuredProducts?.length!==0 && <ProductsSlider items={6}  data={productsData}/>
+            featuredProducts?.length!==0 && <ProductsSlider items={6}  data={featuredProducts}/>
           }
           <AdsBannerSlider items={3} />
         </div>
