@@ -26,7 +26,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { fetchDataFromApi, postData, putData } from "./utils/api";
 import Address from "./Pages/MyAccount/address";
 import Payment from "./Pages/Payment/Payment";
-import ForgotPassword from "./Pages/forgotPassword";
+import ForgotPassword from "./Pages/ForgotPassword";
 
 export const MyContext = createContext();
 
