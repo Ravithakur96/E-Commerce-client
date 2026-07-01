@@ -9,7 +9,7 @@ import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import CartPage from "./Pages/Cart";
 import Verify from "./Pages/Verify";
-import ForgotPassword from "./Pages/forgotPassword";
+
 import Checkout from "./Pages/Checkout";
 import MyAccount from "./Pages/MyAccount"; 
 import MyList from "./Pages/MyList";
@@ -26,6 +26,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { fetchDataFromApi, postData, putData } from "./utils/api";
 import Address from "./Pages/MyAccount/address";
 import Payment from "./Pages/Payment/Payment";
+import ForgotPassword from "./Pages/forgotPassword";
 
 export const MyContext = createContext();
 
