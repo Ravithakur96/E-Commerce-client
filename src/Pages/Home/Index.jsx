@@ -18,7 +18,7 @@ import HomeBannerV2 from "../../components/HomeSliderV2";
 
 import { MyContext } from "../../App";
 import { fetchDataFromApi } from "../../utils/api";
-import BannerBoxV2 from "../../components/BannerBoxV2";
+import BannerBoxV2 from "../../components/bannerBoxV2";
 
 const Home = () => {
 
