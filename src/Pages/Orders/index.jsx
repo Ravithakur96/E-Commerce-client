@@ -29,13 +29,13 @@ const [loading, setLoading] = useState(true);
     const token = localStorage.getItem("accesstoken");
 
     const res = await axios.get(
-      "http://localhost:8000/api/orders/my-orders",
-      {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      }
-    );
+  `${import.meta.env.VITE_API_URL}/api/v1/order/my-orders`,
+  {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  }
+);
 
     if (res.data.success) {
       setOrders(res.data.orders);
