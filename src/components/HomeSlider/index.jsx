@@ -26,33 +26,29 @@ const HomeSlider = () => {
         >
           <SwiperSlide>
             <div className='items rounded-[20px] overflow-hidden'>
-              <img src="https://serviceapi.spicezgold.com/download/1755503418386_NewProject(12).jpg" alt="Banner Slide" className="w-full" />
+              <img src="https://www.pngkey.com/png/detail/247-2475118_ecommerce-e-commerce-banner-png.png" alt="Banner Slide" className="w-full" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div className='items rounded-[20px] overflow-hidden'>
-              <img src="https://serviceapi.spicezgold.com/download/1755503364377_1721277298204_banner.jpg" alt="Banner Slide" className="w-full" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8jQ_zO1iPZoB2eBKO4nUtFkf3lD_ZyjlePuSTYO3qLdh6zsfLVsiFCKFD&s=10" alt="Banner Slide" className="w-full" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div className='items rounded-[20px] overflow-hidden'>
-              <img src="https://serviceapi.spicezgold.com/download/1751685144346_NewProject(11).jpg" alt="Banner Slide" className="w-full" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nVRTku5VhGKrYM2HioXkG7EzBNJbPMfzsjaehf_lWqOexIWF0cuGacQ&s=10" alt="Banner Slide" className="w-full" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div className='items rounded-[20px] overflow-hidden'>
-              <img src="https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg" alt="Banner Slide" className="w-full" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5xmHrhUdj0rtweKkCkb78l1rWDq9xH5xN4jA5MLwMUJgEpGbpWIJhRg&s=10" alt="Banner Slide" className="w-full" />
             </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className='items rounded-[20px] overflow-hidden'>
-              <img src="https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg" alt="Banner Slide" className="w-full" />
-            </div>
-          </SwiperSlide>
+         
         </Swiper>
       </div>
     </div>

@@ -63,11 +63,11 @@ const Login = () => {
         const userEmail = response?.data?.user?.email || formFields.email;
         const userName = response?.data?.user?.name || "User";
 
-        context.setUserData({ name: userName, email: userEmail });
         localStorage.setItem("userEmail", userEmail);
 
-        context.setIsLogin(true);
-        history("/");
+await context.loadUserData();
+
+history("/");
       } else {
         context?.openAlertBox("error", response?.message || "Enter Valid details!");
       }

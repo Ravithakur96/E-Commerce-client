@@ -28,7 +28,7 @@ const HomeBannerV2 = () => {
       >
         <SwiperSlide>
           <div className="item w-full rounded-md overflow-hidden relative ">
-            <img src="https://serviceapi.spicezgold.com/download/1756273096312_1737036773579_sample-1.jpg" className='w-full'/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5xmHrhUdj0rtweKkCkb78l1rWDq9xH5xN4jA5MLwMUJgEpGbpWIJhRg&s=10" className='w-full'/>
 
             <div className="info absolute top-0 -right-[100%] w-[50%] h-[100%] opacity-0 z-50 !p-8 flex items-center flex-col justify-center transition-all duration-700">
               <h4 className="text-[18px] font-[500] w-full text-lef !mb-3 relative -right-[100%] opacity-0">Big Saving Days Sale</h4>

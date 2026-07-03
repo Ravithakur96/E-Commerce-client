@@ -28,8 +28,8 @@ const [loading, setLoading] = useState(true);
   try {
     const token = localStorage.getItem("accesstoken");
 
-    const res = await axios.get(
-  `${import.meta.env.VITE_API_URL}/api/v1/order/my-orders`,
+const res = await axios.get(
+  `${import.meta.env.VITE_API_URL}/api/orders/my-orders`,
   {
     headers: {
       Authorization: `Bearer ${token}`,

@@ -96,11 +96,11 @@ useEffect(() => {
           <div className="part2 w-[30%] flex items-center gap-5 justify-between flex-col">
             <BannerBoxV2
               info="left" 
-              image="https://serviceapi.spicezgold.com/download/1741664496923_1737020250515_New_Project_47.jpg" 
+              image="https://img.magnific.com/free-vector/gradient-shopping-discount-horizontal-sale-banner_23-2150321996.jpg?semt=ais_hybrid&w=740&q=80" 
             />
             <BannerBoxV2 
               info="right" 
-              image="https://serviceapi.spicezgold.com/download/1741664665391_1741497254110_New_Project_50.jpg" 
+              image="https://img.magnific.com/free-vector/gradient-shopping-discount-horizontal-sale-banner_23-2150321996.jpg?semt=ais_hybrid&w=740&q=80" 
             />
           </div>
 

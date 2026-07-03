@@ -116,9 +116,17 @@ const Header = () => {
                     className="!text-[#000] myAccountWrap flex items-center gap-3 cursor-pointer"
                     onClick={handleClick}
                   >
-                    <div className='!w-[40px] !h-[40px] !min-w-[40px] !rounded-full !bg-[#f1f1f1]'>
-                      <FaRegUser className='text-[16px] text-[rgba(0,0,0,0.7)]' />
-                    </div>
+                    <div className="w-[40px] h-[40px] min-w-[40px] rounded-full overflow-hidden bg-[#f1f1f1] flex items-center justify-center">
+  {context?.userData?.avatar ? (
+    <img
+      src={context.userData.avatar}
+      alt="User"
+      className="w-full h-full object-cover"
+    />
+  ) : (
+    <FaRegUser className="text-[16px] text-[rgba(0,0,0,0.7)]" />
+  )}
+</div>
                     <div className="infoflex flex-col text-left">
                     <h4 className='leading-3 text-[14px] text-[rgba(0,0,0,0.6)] font-[500] !mb-0 capitalize text-left justify-start'>
   {context?.userData?.name}

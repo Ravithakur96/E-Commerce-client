@@ -158,6 +158,17 @@ useEffect(() => {
   }
 
 
+  const loadUserData = async () => {
+  const res = await fetchDataFromApi("/api/user/user-details");
+
+  if (res?.data) {
+    setUserData(res.data);
+    setIsLogin(true);
+    getCartItems();
+  }
+};
+
+
 const getCartItems = () => {
   fetchDataFromApi(`/api/cart/get`)
     .then((res) => {
@@ -225,6 +236,7 @@ const values = {
   openAlertBox,
   isLogin,
   setIsLogin,
+  loadUserData,
   userData,
   setUserData,
   catData,
